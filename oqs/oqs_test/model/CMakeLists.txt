@@ -1,7 +1,7 @@
 set(target ${OQS_TEST})
 
 FILE(GLOB hdrs "*.h")
-FILE(GLOB hdrs "*.cpp")
+FILE(GLOB srcs "*.cpp")
 
 include_directories("${OQS_INC}")
 

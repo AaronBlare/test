@@ -60,6 +60,6 @@ include_directories("${OQS_INC}")
 
 enable_testing()
 
-add_subdirectory("oqs_main")
 add_subdirectory("oqs_lib/model")
 add_subdirectory("oqs_test/model")
+add_subdirectory("oqs_main")

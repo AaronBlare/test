@@ -1,7 +1,7 @@
 set(target ${OQS_LIB})
 
 FILE(GLOB hdrs "*.h")
-FILE(GLOB hdrs "*.cpp")
+FILE(GLOB srcs "*.cpp")
 
 add_library(${target} STATIC ${srcs} ${hdrs})
 

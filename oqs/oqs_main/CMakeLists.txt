@@ -3,6 +3,8 @@ set(target ${OQS_MAIN})
 FILE(GLOB hdrs "*.h")
 FILE(GLOB hdrs "*.cpp")
 
+include_directories("${OQS_INC}")
+
 add_executable(${target} ${srcs} ${hdrs})
 
 if(MKL_FOUND)

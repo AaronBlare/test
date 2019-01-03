@@ -1,4 +1,4 @@
-set(target ${OQS_LIBRARY})
+set(target ${OQS_LIB})
 
 FILE(GLOB hdrs "*.h")
 FILE(GLOB hdrs "*.cpp")

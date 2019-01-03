@@ -66,20 +66,17 @@ find_library(MKL_INTERFACE_LIBRARY
              NAMES ${INT_LIB}
              PATHS ${MKL_ROOT_DIR}/lib
                    ${MKL_ROOT_DIR}/lib/intel64
-                   ${MKL_ROOT_DIR}/lib/intel64
              NO_DEFAULT_PATH)
 
 find_library(MKL_SEQUENTIAL_LAYER_LIBRARY
              NAMES ${SEQ_LIB}
              PATHS ${MKL_ROOT_DIR}/lib
                    ${MKL_ROOT_DIR}/lib/intel64
-                   ${MKL_ROOT_DIR}/lib/intel64
              NO_DEFAULT_PATH)
 
 find_library(MKL_CORE_LIBRARY
              NAMES ${COR_LIB}
              PATHS ${MKL_ROOT_DIR}/lib
-                   ${MKL_ROOT_DIR}/lib/intel64
                    ${MKL_ROOT_DIR}/lib/intel64
              NO_DEFAULT_PATH)
 

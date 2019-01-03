@@ -3,10 +3,10 @@ set(target ${OQS_TEST})
 FILE(GLOB hdrs "*.h")
 FILE(GLOB hdrs "*.cpp")
 
-include_directories("${OQS_INCLUDE}")
+include_directories("${OQS_INC}")
 
 add_executable(${target} ${srcs} ${hdrs})
-target_link_libraries(${target} gtest gmock_main ${OQS_LIBRARY})
+target_link_libraries(${target} gtest gmock_main ${OQS_LIB})
 
 if(MKL_FOUND)
 	include_directories("${MKL_INCLUDE_DIRS}")
